@@ -11,6 +11,7 @@ body{
 .header{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 
 .header, .footer {
@@ -19,6 +20,8 @@ background-color: #1F2937;
 .header-logo{
 color: #F9FAF8;
 font-size: 24px;
+margin-top: 16px;
+margin-left: 250px;
 }
 a{
   text-decoration: none;
@@ -29,12 +32,15 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px;
+
 }
 
 .right-link{
   display: flex;
   list-style: none;
   gap: 16px;
+  margin-right: 250px;;
 }
 
 
@@ -44,30 +50,48 @@ a{
 .c1{
   background-color: #1F2937;
   display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  
 }
 
 .cc1 {
   color: #F9FAF8;
   font-size: 48px;
+  margin-left: 250px;
+  
 }
+.c11{
+  margin-bottom: 100px;
 
+}
 .cc11{
 font-size: 18px;
 color: #E5E7EB;
 }
 
-.c1img{
+.plant-img{
+  width: 700px;
+  height: 200px;
+  background-color: gray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 250px;
+  margin-bottom: 100px;
+  margin-left: 60px;
   display: flex;
-  flex-shrink: 0;
-  
+  align-items: center;
+  justify-content: center;
+  color: #E5E7EB;
 }
-/*---- buttons ----*/
+
 button{
   font-family: Roboto, sans-serif;
   background-color: #3882F6;
   border: none;
-  border-radius: 8%;
-  padding: 16px 32px; 
+  border-radius: 8px;
+  padding: 8px 26px;
   color: #F9FAF8;
   font-weight: 800;
 }
@@ -81,6 +105,7 @@ button{
   align-items: center;
 }
  .cc2{
+  margin-top: 50px;
   font-size: 36px;
   font-weight: 800;
  }
@@ -89,23 +114,46 @@ button{
   padding: 32px;
   display: flex;
   gap: 16px;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
   }
 
   .card{
-    border: 1px solid #3882F6;
+    border: 4px solid #3882F6;
     box-shadow: none;
-    border-radius: 4px;
-    padding: 16px;
-    margin: 16px;
-    width: 150px;
-    height: 150px;
+    border-radius: 16px;
+   padding: 16px;
+   margin-top: 16px;
+   margin-left: 16px;
+   margin-right: 16px;
+    width: 125px;
+    height: 125px;
   }
+ figcaption{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 12px;
+  margin-right: 16px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 150px;
+}
+  
 /*----container c3----*/
  .c3{
   background-color: #E5E7EB;
  }
 
  .c3ic{
+  padding-top: 120px;
+  padding-bottom: 80px;
+  margin-left: 330px;
+  margin-right: 330px;
+  flex-wrap: wrap;
   background-color: #E5E7EB;
  }
 
@@ -117,4 +165,30 @@ button{
  .thor-signature{
 display: flex;
 justify-content: flex-end;
+ }
+
+ /*----container c4----*/
+ .c4{
+  padding: 64px 32px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ }
+
+ .cc4{
+  color: whitesmoke;
+ }
+
+
+
+ .bluebox{
+  display: flex;
+  gap: 275px;
+  background-color: #3882F6;
+  padding: 32px 100px;
+  border-radius: 4px;
+ }
+ .buttonwhite{
+ border: solid #F9FAF8;
  }
